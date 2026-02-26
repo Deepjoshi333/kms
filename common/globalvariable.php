@@ -25,7 +25,7 @@ $base_url = "$host" . "kms/";
 /////////////////////////////////website related path/////////////////////////////////////////
 //BASE URL
 $base_url_website = "$host" . "kms/admin/";
-// $base_url_website_about = "$host" . "kms/website/about/";
+$base_url_website_about = "$host" . "kms/website/about/";
 // $base_url_website_admission = "$host" . "kms/website/admission/";
 // $base_url_website_faculty = "$host" . "kms/website/faculty/";
 // $base_url_website_home = "$host" . "kms/website/home/";
