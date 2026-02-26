@@ -1,6 +1,6 @@
 <?php
- //India time (GMT+5:30)
-date_default_timezone_set("Asia/Calcutta"); 
+//India time (GMT+5:30)
+date_default_timezone_set("Asia/Calcutta");
 
 
 ///////////////////////////////host related path/////////////////////////////////////////
@@ -25,7 +25,7 @@ $base_url = "$host" . "kms/";
 /////////////////////////////////website related path/////////////////////////////////////////
 //BASE URL
 $base_url_website = "$host" . "kms/admin/";
-$base_url_website_about = "$host" . "kms/website/about/";
+// $base_url_website_about = "$host" . "kms/website/about/";
 // $base_url_website_admission = "$host" . "kms/website/admission/";
 // $base_url_website_faculty = "$host" . "kms/website/faculty/";
 // $base_url_website_home = "$host" . "kms/website/home/";
@@ -36,7 +36,7 @@ $base_url_website_about = "$host" . "kms/website/about/";
 // $base_url_website_campus = "$host" . "kms/website/campus/";
 // //assets url
 // $website_assets_url =  "$base_url"."website_assets/";
- 
+
 /////////////////////////////////website related path end/////////////////////////////////////////
 
 
