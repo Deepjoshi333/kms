@@ -5,7 +5,7 @@ date_default_timezone_set("Asia/Calcutta");
 
 ///////////////////////////////host related path/////////////////////////////////////////
 //$host="https://kms.edu.in/";
-$host = "http://localhost:8080/";
+$host = "http://localhost:/";
 $base_url = "$host" . "kms/";
 ///////////////////////////////host related path end /////////////////////////////////////////
 
