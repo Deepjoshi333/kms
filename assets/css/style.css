@@ -1,11 +1,31 @@
 /********** Template CSS **********/
 :root {
-    --primary: #EAA636;
+    --primary: #dc3545;
     --secondary: #545454;
     --light: #FDF5EB;
     --dark: #1E1916;
 }
 
+/* ===== Scrollbar Width ===== */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* ===== Scrollbar Track (Background) ===== */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* ===== Scrollbar Thumb (Moving Part) ===== */
+::-webkit-scrollbar-thumb {
+    background: #dc3545;   /* Bootstrap danger red */
+    border-radius: 10px;
+}
+
+/* ===== Hover Effect ===== */
+::-webkit-scrollbar-thumb:hover {
+    background: #b02a37;
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -239,7 +259,7 @@
     height: 80%;
     top: 10%;
     left: 20%;
-    border: 1rem solid var(--light);
+    border: 1rem solid #ebe0e1 ;
     z-index: -1;
 }
 
