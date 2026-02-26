@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Photozone - Photo Studio Website Template</title>
+    <title>GMIU - NAAC Accreditation</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -21,15 +21,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-  <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    <!-- Customized Bootstrap Stylesheet -->
-<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
-<link href="assets/css/style.css" rel="stylesheet"></head>
+        <!-- Template Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet"></head>
 
+    <link rel="icon" type="image/x-icon" href="<?php echo $website_assets_url; ?>assets/img/favicon.ico">
+    
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -39,7 +41,8 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top shadow py-lg-0 px-4 px-lg-5 wow wow fadeIn" data-wow-delay="0.1s">        <a href="index.html" class="navbar-brand d-block d-lg-none">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top shadow py-lg-0 px-4 px-lg-5 wow wow fadeIn" data-wow-delay="0.1s">        
+        <a href="index.php" class="navbar-brand d-block d-lg-none">
             <img src="assets/img/gmiulogo.webp" alt="Photozone Logo" style="height:60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -47,11 +50,10 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#home" class="nav-item nav-link active" style="font-family:Font Awesome 5 Free; !important">Home</a>
                 <a href="#about" class="nav-item nav-link">About</a>
-                <a href="#service" class="nav-item nav-link">Services</a>
             </div>
-           <a href="index.html" class="navbar-brand border border-2 border-danger  py-2 px-2 mx-3 d-none d-lg-block">
+           <a href="index.php" class="navbar-brand border border-2 border-danger  py-2 px-2 mx-3 d-none d-lg-block">
                 <img src="assets/img/gmiulogo.webp" 
                     alt="Logo"
                     class="img-fluid "
@@ -59,15 +61,6 @@
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="project.html" class="nav-item nav-link">Projects</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
-                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -80,27 +73,32 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <p class="text-primary text-uppercase mb-2 animated slideInDown">Welcome To Photozone</p>
-                    <h1 class="display-4 mb-3 animated slideInDown">Wedding And Portrait Studio Based in New York</h1>
-                    <p class="animated slideInDown">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="text-primary text-uppercase mb-2 animated slideInDown">NAAC Accreditation</p>
+                    <h1 class="display-4 mb-3 animated slideInDown"> National Assessment and Accreditation Council (NAAC)</h1>
+                    <p class="animated slideInDown " >
+                        Gyanmanjari Innovative University (GMIU) is committed to excellence in higher 
+                        education through continuous quality enhancement. NAAC accreditation reflects 
+                        our dedication towards maintaining high academic standards, promoting research 
+                        and innovation, strengthening infrastructure, and ensuring holistic student development.
+                    </p>                    
                     <div class="d-flex align-items-center pt-4 animated slideInDown">
-                        <a href="" class="btn btn-primary py-3 px-4 me-5">Explore More</a>
+                        <a href="" class="btn btn-primary py-3 px-4 me-5">View Accreditation Details</a>
                         <button type="button" class="btn-play" data-bs-toggle="modal"
                             data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                             <span></span>
                         </button>
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">NAAC 7 Criteria</h5>
                     </div>
                 </div>
                 <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white p-3 w-100 mb-3" src="assets/img/hero-1.jpg" alt="">
+                            <img class="img-fluid bg-white p-3 w-100 mb-3" src="assets/img/naac.jpg" alt="">
                             <img class="img-fluid bg-white p-3 w-50" src="assets/img/hero-3.jpg" alt="">
                         </div>
                         <div class="col-6">
                             <img class="img-fluid bg-white p-3 w-50 mb-3" src="assets/img/hero-4.jpg" alt="">
-                            <img class="img-fluid bg-white p-3 w-100" src="assets/img/hero-2.jpg" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="assets/img/logo.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -146,25 +144,36 @@
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
-                        <p class="text-primary text-uppercase mb-2">About Us</p>
-                        <h1 class="display-6 mb-4">We Are Creative And Professional Photographer</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p class="text-primary text-uppercase mb-2">About University</p>
+                        <h1 class="display-6 mb-4">Gyanmanjari Innovative University (GMIU)</h1>
+                         <p style="text-align: justify; line-height: 1.8;">
+                        Gyanmanjari Innovative University (GMIU) was established with the vision 
+                        of providing value-embedded quality education and developing skilled 
+                        professionals capable of transforming global challenges into opportunities. 
+                        The University emphasizes academic excellence, innovation, research, 
+                        and holistic student development.
+                         </p>
+                        <p style="text-align: justify; line-height: 1.8;">
+                        With modern infrastructure, experienced faculty, industry-oriented 
+                        programs, and a strong commitment towards quality assurance through 
+                        NAAC accreditation, GMIU continuously strives to achieve higher 
+                        standards in teaching, learning, governance, and institutional values.
+                         </p>
                         <div class="row g-2 mb-4">
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Quality Products
+                                <i class="fa fa-check text-primary me-3"></i>NAAC Quality Focus
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Custom Products
+                                <i class="fa fa-check text-primary me-3"></i>Modern Infrastructure
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Online Order
+                                <i class="fa fa-check text-primary me-3"></i>Research & Innovation
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Home Delivery
+                                <i class="fa fa-check text-primary me-3"></i>Student-Centric Learning
                             </div>
                         </div>
-                        <a class="btn btn-primary py-3 px-5" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5" href="">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -177,29 +186,34 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Why Choose Us!</p>
-                <h1 class="display-6 mb-5">The Leading Photo Studio In The Country</h1>
+                <p class="text-primary text-uppercase mb-2">Why Choose GMIU?</p>
+                <h1 class="display-6 mb-5">Excellence in Education & Innovation</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">35</h1>
-                        <h4 class="mb-3">Award Winning</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+                        <h4 class="mb-3">Academic Programs</h4>
+                        <span> Offering undergraduate, postgraduate, and doctoral programs 
+                        across engineering, management, science, and technology disciplines.</span>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">45</h1>
-                        <h4 class="mb-3">Years Experience</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+                        <h4 class="mb-3">Experienced Faculty</h4>
+                        <span>
+                        Highly qualified and dedicated faculty members committed 
+                        to quality teaching, research, and student mentorship.
+                        </span>                    
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="fact-item bg-light text-center h-100 p-5">
                         <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">12345</h1>
-                        <h4 class="mb-3">Happy Clients</h4>
-                        <span>Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</span>
+                        <h4 class="mb-3">Students Enrolled</h4>
+                        <span>A vibrant academic community focused on innovation, 
+                        skill development, entrepreneurship, and career success.</span>
                     </div>
                 </div>
             </div>
@@ -214,6 +228,60 @@
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Our Services</p>
                 <h1 class="display-6 mb-4">We Provide Best Professional Services</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/service-1.jpg" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Weddings</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/service-2.jpg" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Portraits</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/service-3.jpg" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Fashion</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item d-flex flex-column bg-white p-3 pb-0">
+                        <div class="position-relative">
+                            <img class="img-fluid" src="assets/img/service-4.jpg" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href=""><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h4>Editorial</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row g-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
