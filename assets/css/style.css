@@ -92,10 +92,15 @@
     transition: .5s;
 }
 
+
+.navbar-nav a{
+     font-family: "Font Awesome 5 Free";
+}
+
 .navbar .navbar-nav .nav-link {
     padding: 20px 15px;
     color: var(--dark);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     outline: none;
 }
