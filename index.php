@@ -39,21 +39,23 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand d-block d-lg-none">
-            <h1 class="text-primary">Photozone</h1>
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top shadow py-lg-0 px-4 px-lg-5 wow wow fadeIn" data-wow-delay="0.1s">        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <img src="assets/img/gmiulogo.webp" alt="Photozone Logo" style="height:60px;">
         </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
             </div>
-            <a href="index.html" class="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block">
-                <h1 class="text-white">Photozone</h1>
+           <a href="index.html" class="navbar-brand border border-2 border-danger  py-2 px-2 mx-3 d-none d-lg-block">
+                <img src="assets/img/gmiulogo.webp" 
+                    alt="Logo"
+                    class="img-fluid "
+                    style="height:65px;">
             </a>
             <div class="navbar-nav me-auto py-0">
                 <a href="project.html" class="nav-item nav-link">Projects</a>
@@ -74,7 +76,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid hero-header bg-light py-5 mb-5">
+    <div id="home" class="container-fluid hero-header bg-light py-5 mb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
@@ -107,7 +109,6 @@
     </div>
     <!-- Header End -->
 
-
     <!-- Video Modal Start -->
     <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -127,7 +128,7 @@
         </div>
     </div>
     <!-- Video Modal End -->
-
+    
 
     <!-- About Start -->
     <div class="container-xxl py-5">
@@ -580,11 +581,11 @@
     <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
         <div class="d-flex flex-column flex-md-row justify-content-between">
             <div class="py-4 px-5 text-center text-md-start">
-                <p class="mb-0">&copy; <a class="text-primary" href="#">Your Site Name</a>. All Rights Reserved.</p>
+                <p class="mb-0">&copy; <a class="text-primary" href="#">NAAC</a> All Rights Reserved.</p>
             </div>
             <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
                 <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                <p class="mb-0">Designed by <a class="text-primary fw-bold" href="https://htmlcodex.com">HTML Codex</a></p>  Distributed by <a href="https://themewagon.com" target="_blank" >ThemeWagon</a>
+                <p class="mb-0">Designed & Develop by <a class="text-primary fw-bold"  href="https://gmiu.edu.in/gmiu/website/common/it_cell_team.php" target="_blank   ">IT CELL</a></p> </a>
             </div>
         </div>
     </div>
