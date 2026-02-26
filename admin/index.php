@@ -1,3 +1,6 @@
+<?php  include '../common/globalvariable.php';  ?>
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
