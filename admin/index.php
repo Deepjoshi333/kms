@@ -8,29 +8,21 @@
     <meta name="description" content="" />
     <meta name="keyword" content="" />
     <meta name="author" content="flexilecode" />
-    <!--! The above 6 meta tags *must* come first in the head; any other head content must come *after* these tags !-->
-    <!--! BEGIN: Apps Title-->
+
     <title>Duralux || Dashboard</title>
-    <!--! END:  Apps Title-->
-    <!--! BEGIN: Favicon-->
+
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
-    <!--! END: Favicon-->
-    <!--! BEGIN: Bootstrap CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-    <!--! END: Bootstrap CSS-->
-    <!--! BEGIN: Vendors CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/vendors/css/vendors.min.css" />
-    <link rel="stylesheet" type="text/css" href="assets/vendors/css/daterangepicker.min.css" />
-    <!--! END: Vendors CSS-->
-    <!--! BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/theme.min.css" />
-    <!--! END: Custom CSS-->
-    <!--! HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries !-->
-    <!--! WARNING: Respond.js doesn"t work if you view the page via file: !-->
-    <!--[if lt IE 9]>
-			<script src="https:oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https:oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="assets/vendors/css/vendors.min.css" />
+    <link rel="stylesheet" href="assets/vendors/css/daterangepicker.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/theme.min.css" />
 </head>
 
 <body>
@@ -40,7 +32,7 @@
     <nav class="nxl-navigation">
         <div class="navbar-wrapper">
             <div class="m-header">
-                <a href="index.html" class="b-brand">
+                <a href="index.php" class="b-brand">
                     <!-- ========   change your logo hear   ============ -->
                     <img src="assets/images/logo-full.png" alt="" class="logo logo-lg" />
                     <img src="assets/images/logo-abbr.png" alt="" class="logo logo-sm" />
@@ -57,8 +49,8 @@
                             <span class="nxl-mtext">Dashboards</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="index.html">CRM</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="analytics.html">Analytics</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="index.php">CRM</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="analytics.php">Analytics</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -67,10 +59,10 @@
                             <span class="nxl-mtext">Reports</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="reports-sales.html">Sales Report</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="reports-leads.html">Leads Report</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="reports-project.html">Project Report</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="reports-timesheets.html">Timesheets Report</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="reports-sales.php">Sales Report</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="reports-leads.php">Leads Report</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="reports-project.php">Project Report</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="reports-timesheets.php">Timesheets Report</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -79,12 +71,12 @@
                             <span class="nxl-mtext">Applications</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="apps-chat.html">Chat</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="apps-email.html">Email</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="apps-tasks.html">Tasks</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="apps-notes.html">Notes</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="apps-storage.html">Storage</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="apps-calendar.html">Calendar</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-chat.php">Chat</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-email.php">Email</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-tasks.php">Tasks</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-notes.php">Notes</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-storage.php">Storage</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="apps-calendar.php">Calendar</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -93,10 +85,10 @@
                             <span class="nxl-mtext">Proposal</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="proposal.html">Proposal</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="proposal-view.html">Proposal View</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="proposal-edit.html">Proposal Edit</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="proposal-create.html">Proposal Create</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="proposal.php">Proposal</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="proposal-view.php">Proposal View</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="proposal-edit.php">Proposal Edit</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="proposal-create.php">Proposal Create</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -105,9 +97,9 @@
                             <span class="nxl-mtext">Payment</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="payment.html">Payment</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="invoice-view.html">Invoice View</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="invoice-create.html">Invoice Create</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="payment.php">Payment</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="invoice-view.php">Invoice View</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="invoice-create.php">Invoice Create</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -116,9 +108,9 @@
                             <span class="nxl-mtext">Customers</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="customers.html">Customers</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="customers-view.html">Customers View</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="customers-create.html">Customers Create</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="customers.php">Customers</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="customers-view.php">Customers View</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="customers-create.php">Customers Create</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -127,9 +119,9 @@
                             <span class="nxl-mtext">Leads</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="leads.html">Leads</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="leads-view.html">Leads View</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="leads-create.html">Leads Create</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="leads.php">Leads</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="leads-view.php">Leads View</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="leads-create.php">Leads Create</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -138,9 +130,9 @@
                             <span class="nxl-mtext">Projects</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="projects.html">Projects</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="projects-view.html">Projects View</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="projects-create.html">Projects Create</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="projects.php">Projects</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="projects-view.php">Projects View</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="projects-create.php">Projects Create</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -149,11 +141,11 @@
                             <span class="nxl-mtext">Widgets</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="widgets-lists.html">Lists</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="widgets-tables.html">Tables</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="widgets-charts.html">Charts</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="widgets-statistics.html">Statistics</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="widgets-miscellaneous.html">Miscellaneous</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="widgets-lists.php">Lists</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="widgets-tables.php">Tables</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="widgets-charts.php">Charts</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="widgets-statistics.php">Statistics</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="widgets-miscellaneous.php">Miscellaneous</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -162,19 +154,19 @@
                             <span class="nxl-mtext">Settings</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                         </a>
                         <ul class="nxl-submenu">
-                            <li class="nxl-item"><a class="nxl-link" href="settings-general.html">General</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-seo.html">SEO</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-tags.html">Tags</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-email.html">Email</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-tasks.html">Tasks</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-leads.html">Leads</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-support.html">Support</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-finance.html">Finance</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-gateways.html">Gateways</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-customers.html">Customers</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-localization.html">Localization</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-recaptcha.html">reCAPTCHA</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="settings-miscellaneous.html">Miscellaneous</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-general.php">General</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-seo.php">SEO</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-tags.php">Tags</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-email.php">Email</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-tasks.php">Tasks</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-leads.php">Leads</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-support.php">Support</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-finance.php">Finance</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-gateways.php">Gateways</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-customers.php">Customers</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-localization.php">Localization</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-recaptcha.php">reCAPTCHA</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="settings-miscellaneous.php">Miscellaneous</a></li>
                         </ul>
                     </li>
                     <li class="nxl-item nxl-hasmenu">
@@ -188,9 +180,9 @@
                                     <span class="nxl-mtext">Login</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-login-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-login-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-login-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="auth-login-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="auth-login-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="auth-login-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                             <li class="nxl-item nxl-hasmenu">
@@ -198,9 +190,9 @@
                                     <span class="nxl-mtext">Register</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-register-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                             <li class="nxl-item nxl-hasmenu">
@@ -208,9 +200,9 @@
                                     <span class="nxl-mtext">Error-404</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-404-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                             <li class="nxl-item nxl-hasmenu">
@@ -218,9 +210,9 @@
                                     <span class="nxl-mtext">Reset Pass</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-reset-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                             <li class="nxl-item nxl-hasmenu">
@@ -228,9 +220,9 @@
                                     <span class="nxl-mtext">Verify OTP</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-verify-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                             <li class="nxl-item nxl-hasmenu">
@@ -238,9 +230,9 @@
                                     <span class="nxl-mtext">Maintenance</span><span class="nxl-arrow"><i class="feather-chevron-right"></i></span>
                                 </a>
                                 <ul class="nxl-submenu">
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-cover.html">Cover</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-minimal.html">Minimal</a></li>
-                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-creative.html">Creative</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-cover.php">Cover</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-minimal.php">Minimal</a></li>
+                                    <li class="nxl-item"><a class="nxl-link" href="./auth-maintenance-creative.php">Creative</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -252,7 +244,7 @@
                         </a>
                         <ul class="nxl-submenu">
                             <li class="nxl-item"><a class="nxl-link" href="#!">Support</a></li>
-                            <li class="nxl-item"><a class="nxl-link" href="help-knowledgebase.html">KnowledgeBase</a></li>
+                            <li class="nxl-item"><a class="nxl-link" href="help-knowledgebase.php">KnowledgeBase</a></li>
                             <li class="nxl-item"><a class="nxl-link" href="/docs/documentations">Documentations</a></li>
                         </ul>
                     </li>
@@ -329,27 +321,27 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="apps-chat.html" class="dropdown-item">
+                                        <a href="apps-chat.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Chat</span>
                                         </a>
-                                        <a href="apps-email.html" class="dropdown-item">
+                                        <a href="apps-email.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Email</span>
                                         </a>
-                                        <a href="apps-tasks.html" class="dropdown-item">
+                                        <a href="apps-tasks.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Tasks</span>
                                         </a>
-                                        <a href="apps-notes.html" class="dropdown-item">
+                                        <a href="apps-notes.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Notes</span>
                                         </a>
-                                        <a href="apps-storage.html" class="dropdown-item">
+                                        <a href="apps-storage.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Storage</span>
                                         </a>
-                                        <a href="apps-calendar.html" class="dropdown-item">
+                                        <a href="apps-calendar.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Calendar</span>
                                         </a>
@@ -365,19 +357,19 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="reports-sales.html" class="dropdown-item">
+                                        <a href="reports-sales.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Sales Report</span>
                                         </a>
-                                        <a href="reports-leads.html" class="dropdown-item">
+                                        <a href="reports-leads.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Leads Report</span>
                                         </a>
-                                        <a href="reports-project.html" class="dropdown-item">
+                                        <a href="reports-project.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Project Report</span>
                                         </a>
-                                        <a href="reports-timesheets.html" class="dropdown-item">
+                                        <a href="reports-timesheets.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Timesheets Report</span>
                                         </a>
@@ -392,19 +384,19 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="proposal.html" class="dropdown-item">
+                                        <a href="proposal.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Proposal</span>
                                         </a>
-                                        <a href="proposal-view.html" class="dropdown-item">
+                                        <a href="proposal-view.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Proposal View</span>
                                         </a>
-                                        <a href="proposal-edit.html" class="dropdown-item">
+                                        <a href="proposal-edit.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Proposal Edit</span>
                                         </a>
-                                        <a href="proposal-create.html" class="dropdown-item">
+                                        <a href="proposal-create.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Proposal Create</span>
                                         </a>
@@ -419,15 +411,15 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="payment.html" class="dropdown-item">
+                                        <a href="payment.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Payment</span>
                                         </a>
-                                        <a href="invoice-view.html" class="dropdown-item">
+                                        <a href="invoice-view.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Invoice View</span>
                                         </a>
-                                        <a href="invoice-create.html" class="dropdown-item">
+                                        <a href="invoice-create.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Invoice Create</span>
                                         </a>
@@ -442,15 +434,15 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="customers.html" class="dropdown-item">
+                                        <a href="customers.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Customers</span>
                                         </a>
-                                        <a href="customers-view.html" class="dropdown-item">
+                                        <a href="customers-view.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Customers View</span>
                                         </a>
-                                        <a href="customers-create.html" class="dropdown-item">
+                                        <a href="customers-create.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Customers Create</span>
                                         </a>
@@ -465,15 +457,15 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="leads.html" class="dropdown-item">
+                                        <a href="leads.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Leads</span>
                                         </a>
-                                        <a href="leads-view.html" class="dropdown-item">
+                                        <a href="leads-view.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Leads View</span>
                                         </a>
-                                        <a href="leads-create.html" class="dropdown-item">
+                                        <a href="leads-create.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Leads Create</span>
                                         </a>
@@ -488,15 +480,15 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="projects.html" class="dropdown-item">
+                                        <a href="projects.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Projects</span>
                                         </a>
-                                        <a href="projects-view.html" class="dropdown-item">
+                                        <a href="projects-view.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Projects View</span>
                                         </a>
-                                        <a href="projects-create.html" class="dropdown-item">
+                                        <a href="projects-create.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Projects Create</span>
                                         </a>
@@ -511,19 +503,19 @@
                                         <i class="feather-chevron-right ms-auto me-0"></i>
                                     </a>
                                     <div class="dropdown-menu nxl-h-dropdown">
-                                        <a href="widgets-lists.html" class="dropdown-item">
+                                        <a href="widgets-lists.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Lists</span>
                                         </a>
-                                        <a href="widgets-tables.html" class="dropdown-item">
+                                        <a href="widgets-tables.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Tables</span>
                                         </a>
-                                        <a href="widgets-charts.html" class="dropdown-item">
+                                        <a href="widgets-charts.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Charts</span>
                                         </a>
-                                        <a href="widgets-statistics.html" class="dropdown-item">
+                                        <a href="widgets-statistics.php" class="dropdown-item">
                                             <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                             <span>Statistics</span>
                                         </a>
@@ -547,15 +539,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-login-cover.html" class="dropdown-item">
+                                                <a href="./auth-login-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-login-minimal.html" class="dropdown-item">
+                                                <a href="./auth-login-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-login-creative.html" class="dropdown-item">
+                                                <a href="./auth-login-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -570,15 +562,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-register-cover.html" class="dropdown-item">
+                                                <a href="./auth-register-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-register-minimal.html" class="dropdown-item">
+                                                <a href="./auth-register-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-register-creative.html" class="dropdown-item">
+                                                <a href="./auth-register-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -593,15 +585,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-404-cover.html" class="dropdown-item">
+                                                <a href="./auth-404-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-404-minimal.html" class="dropdown-item">
+                                                <a href="./auth-404-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-404-creative.html" class="dropdown-item">
+                                                <a href="./auth-404-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -616,15 +608,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-reset-cover.html" class="dropdown-item">
+                                                <a href="./auth-reset-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-reset-minimal.html" class="dropdown-item">
+                                                <a href="./auth-reset-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-reset-creative.html" class="dropdown-item">
+                                                <a href="./auth-reset-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -639,15 +631,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-verify-cover.html" class="dropdown-item">
+                                                <a href="./auth-verify-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-verify-minimal.html" class="dropdown-item">
+                                                <a href="./auth-verify-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-verify-creative.html" class="dropdown-item">
+                                                <a href="./auth-verify-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -662,15 +654,15 @@
                                                 <i class="feather-chevron-right ms-auto me-0"></i>
                                             </a>
                                             <div class="dropdown-menu nxl-h-dropdown">
-                                                <a href="./auth-maintenance-cover.html" class="dropdown-item">
+                                                <a href="./auth-maintenance-cover.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Cover</span>
                                                 </a>
-                                                <a href="./auth-maintenance-minimal.html" class="dropdown-item">
+                                                <a href="./auth-maintenance-minimal.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Minimal</span>
                                                 </a>
-                                                <a href="./auth-maintenance-creative.html" class="dropdown-item">
+                                                <a href="./auth-maintenance-creative.php" class="dropdown-item">
                                                     <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                     <span>Creative</span>
                                                 </a>
@@ -766,27 +758,27 @@
                                             <div class="row g-4">
                                                 <div class="col-lg-6">
                                                     <h6 class="dropdown-item-title">Applications</h6>
-                                                    <a href="apps-chat.html" class="dropdown-item">
+                                                    <a href="apps-chat.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Chat</span>
                                                     </a>
-                                                    <a href="apps-email.html" class="dropdown-item">
+                                                    <a href="apps-email.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Email</span>
                                                     </a>
-                                                    <a href="apps-tasks.html" class="dropdown-item">
+                                                    <a href="apps-tasks.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Tasks</span>
                                                     </a>
-                                                    <a href="apps-notes.html" class="dropdown-item">
+                                                    <a href="apps-notes.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Notes</span>
                                                     </a>
-                                                    <a href="apps-storage.html" class="dropdown-item">
+                                                    <a href="apps-storage.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Storage</span>
                                                     </a>
-                                                    <a href="apps-calendar.html" class="dropdown-item">
+                                                    <a href="apps-calendar.php" class="dropdown-item">
                                                         <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                         <span>Calendar</span>
                                                     </a>
@@ -1019,81 +1011,81 @@
                                                     <div class="row g-4">
                                                         <div class="col-lg-4">
                                                             <h6 class="dropdown-item-title">Cover</h6>
-                                                            <a href="./auth-login-cover.html" class="dropdown-item">
+                                                            <a href="./auth-login-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Login</span>
                                                             </a>
-                                                            <a href="./auth-register-cover.html" class="dropdown-item">
+                                                            <a href="./auth-register-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Register</span>
                                                             </a>
-                                                            <a href="./auth-404-cover.html" class="dropdown-item">
+                                                            <a href="./auth-404-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Error-404</span>
                                                             </a>
-                                                            <a href="./auth-reset-cover.html" class="dropdown-item">
+                                                            <a href="./auth-reset-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Reset Pass</span>
                                                             </a>
-                                                            <a href="./auth-verify-cover.html" class="dropdown-item">
+                                                            <a href="./auth-verify-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Verify OTP</span>
                                                             </a>
-                                                            <a href="./auth-maintenance-cover.html" class="dropdown-item">
+                                                            <a href="./auth-maintenance-cover.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Maintenance</span>
                                                             </a>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <h6 class="dropdown-item-title">Minimal</h6>
-                                                            <a href="./auth-login-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-login-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Login</span>
                                                             </a>
-                                                            <a href="./auth-register-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-register-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Register</span>
                                                             </a>
-                                                            <a href="./auth-404-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-404-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Error-404</span>
                                                             </a>
-                                                            <a href="./auth-reset-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-reset-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Reset Pass</span>
                                                             </a>
-                                                            <a href="./auth-verify-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-verify-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Verify OTP</span>
                                                             </a>
-                                                            <a href="./auth-maintenance-minimal.html" class="dropdown-item">
+                                                            <a href="./auth-maintenance-minimal.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Maintenance</span>
                                                             </a>
                                                         </div>
                                                         <div class="col-lg-4">
                                                             <h6 class="dropdown-item-title">Creative</h6>
-                                                            <a href="./auth-login-creative.html" class="dropdown-item">
+                                                            <a href="./auth-login-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Login</span>
                                                             </a>
-                                                            <a href="./auth-register-creative.html" class="dropdown-item">
+                                                            <a href="./auth-register-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Register</span>
                                                             </a>
-                                                            <a href="./auth-404-creative.html" class="dropdown-item">
+                                                            <a href="./auth-404-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Error-404</span>
                                                             </a>
-                                                            <a href="./auth-reset-creative.html" class="dropdown-item">
+                                                            <a href="./auth-reset-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Reset Pass</span>
                                                             </a>
-                                                            <a href="./auth-verify-creative.html" class="dropdown-item">
+                                                            <a href="./auth-verify-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Verify OTP</span>
                                                             </a>
-                                                            <a href="./auth-maintenance-creative.html" class="dropdown-item">
+                                                            <a href="./auth-maintenance-creative.php" class="dropdown-item">
                                                                 <i class="wd-5 ht-5 bg-gray-500 rounded-circle me-3"></i>
                                                                 <span>Maintenance</span>
                                                             </a>
@@ -2241,7 +2233,7 @@
                                 <span>Account Settings</span>
                             </a>
                             <div class="dropdown-divider"></div>
-                            <a href="./auth-login-minimal.html" class="dropdown-item">
+                            <a href="./auth-login-minimal.php" class="dropdown-item">
                                 <i class="feather-log-out"></i>
                                 <span>Logout</span>
                             </a>
@@ -2267,7 +2259,7 @@
                         <h5 class="m-b-10">Dashboard</h5>
                     </div>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item">Dashboard</li>
                     </ul>
                 </div>
