@@ -69,13 +69,13 @@
 
 
     <!-- Header Start -->
-    <div id="home" class="container-fluid hero-header bg-light py-5 mb-5">
+    <div id="home" class="container-fluid hero-header min-vh-100 bg-light py-5 mb-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
                     <p class="text-primary text-uppercase mb-2 animated slideInDown">NAAC Accreditation</p>
                     <h1 class="display-4 mb-3 animated slideInDown"> National Assessment and Accreditation Council (NAAC)</h1>
-                    <p class="animated slideInDown " >
+                    <p class="animated slideInDown" style="text-align: justify; line-height: 1.8;">
                         Gyanmanjari Innovative University (GMIU) is committed to excellence in higher 
                         education through continuous quality enhancement. NAAC accreditation reflects 
                         our dedication towards maintaining high academic standards, promoting research 
@@ -129,7 +129,7 @@
     
 
     <!-- About Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl min-vh-100 py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -183,7 +183,7 @@
 
 
     <!-- Facts Start -->
-    <div class="container-xxl py-5">
+    <div class="container-xxl min-vh-100 py-5">
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Why Choose GMIU?</p>
@@ -649,7 +649,7 @@
     <div class="container-fluid bg-dark text-white border-top border-secondary px-0">
         <div class="d-flex flex-column flex-md-row justify-content-between">
             <div class="py-4 px-5 text-center text-md-start">
-                <p class="mb-0">&copy; <a class="text-primary" href="#">NAAC</a> All Rights Reserved.</p>
+                <p class="mb-0">&copy; <a class="text-primary" href="#">GMIU - NAAC</a> All Rights Reserved.</p>
             </div>
             <div class="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
                 <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
